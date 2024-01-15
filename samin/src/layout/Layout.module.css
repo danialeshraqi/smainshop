@@ -1,0 +1,51 @@
+.body {
+  position: relative;
+  padding-bottom: 100px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #9370db;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 10px 60px;
+  border-radius: 10px;
+}
+.header a {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.header div {
+  font-size: 1.6rem;
+  background-color: #fff;
+  text-align: center;
+  color: #9370db;
+  height: 35px;
+  width: 35px;
+  border-radius: 9px;
+  padding: 2px;
+  position: relative;
+}
+.header span {
+  font-size: 0.9rem;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+.footer {
+  text-align: center;
+  background-color: #9370db;
+  padding: 20px;
+  margin: 80px auto 10px auto;
+  border-radius: 10px;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

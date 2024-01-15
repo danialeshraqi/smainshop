@@ -1,0 +1,29 @@
+.search {
+  margin: 0 10px 50px;
+  @media screen and (max-width: 500px) {
+    text-align: center;
+  }
+}
+
+.search input {
+  border: 2px dashed #9370db;
+  padding: 10px;
+  width: 250px;
+  font-size: 0.9rem;
+  color: #9370db;
+  border-radius: 10px;
+  /* margin-right: 10px; */
+  margin-left: 10px;
+}
+.search input:focus {
+  outline: none;
+}
+.search button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #9370db;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

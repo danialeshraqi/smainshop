@@ -1,0 +1,19 @@
+* {
+  font-family: kalameh;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+}
+body {
+  margin: auto;
+  max-width: 1200px;
+  min-height: 100vh;
+  padding: 10px;
+  background-color: #f9fafc;
+}
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
